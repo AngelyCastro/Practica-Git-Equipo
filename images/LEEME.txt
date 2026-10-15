@@ -1,0 +1,4 @@
+Guarden aquí las imágenes que descarguen de internet para sus páginas.
+Usen nombres sin espacios ni tildes, por ejemplo: playa-tamarindo.jpg
+En el HTML: <img src="images/playa-tamarindo.jpg" alt="Playa Tamarindo al atardecer">
+En el CSS (está dentro de la carpeta css, por eso se sube con ../): background-image: url("../images/playa-tamarindo.jpg");
