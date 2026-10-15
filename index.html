@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pura Vida Tours - Inicio</title>
-    <link rel="stylesheet" href="css/indx.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="pagina1.html">Playas</a></li>
-                <li><a href="pagina2.htm">Volcanes</a></li>
+                <li><a href="pagina2.html">Volcanes</a></li>
                 <li><a href="pagina3.html">Contacto</a></li>
             </ul>
         </nav>
@@ -28,7 +28,7 @@
         </section>
 
         <section class="destinos">
-            <h2>Destinos populares</h3>
+            <h2>Destinos populares</h2>
 
             <div class="tarjetas">
                 <article class="tarjeta">
@@ -37,8 +37,8 @@
                     <p>Playas de arena blanca y monos cariblancos.</p>
                 </article>
 
-                <article class="tarjetas">
-                    <img src="https://picsum.photos/seed/volcan/600/400">
+                <article class="tarjeta">
+                    <img src="https://picsum.photos/seed/volcan/600/400" alt="Volcan Arenal">
                     <h3>Volcán Arenal</h3>
                     <p>Aguas termales y senderos con vista al volcán.</p>
                 </article>
@@ -54,9 +54,11 @@
         <section class="suscripcion">
             <h2>Recibe nuestras ofertas</h2>
             <form action="gracias.html" method="GET">
-                <label for="correo">Correo electrónico:</label>
-                <input type="email" id="email" placeholder="tucorreo@ejemplo.com" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" id="email" placeholder="tucorreo@ejemplo.com" required>
                 <button type="submit">Suscribirme</button>
+
             </form>
         </section>
     </main>
